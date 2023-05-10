@@ -1,0 +1,25 @@
+The autograding project has 4 iterations:
+
+Iteration 1:
+Detailed output of the individual student programs can be checked using this iteration for each test case instance.
+The student needs to write code in give block in student program base code.
+The grading works for test cases with integer or numerical inputs and outputs.
+Hence, we can check how many test cases does the program pass and fail and it's respective details.
+
+Iteration 2:
+Takes all the student programs and generates an overall report for each student program level details of pass cases, fail cases and pass % for each student.
+The student needs to write code in give block in student program base code.
+The grading works for test cases with integer or numerical inputs and outputs.
+Hence, we can get student level test case pass % and can grade relatively based on it.
+
+Iteration 3:
+This iteration is more suitable for complex student programs like big data assignment codes.
+The student need not write code in the specified block unlike iteration 1&2, students can submit their code as it is. The test case file should be expected output file.
+This iteration checks the student program's output to the expected output file and gives the result for the matches and mismatches in the actual and expected outputs.
+Hence, we can check how much does the actual output matches the expected output and detect the discrepancies in the outputs.
+
+Iteration 4:
+This iteration is more suitable for complex student programs like big data assignment codes.
+It takes all the student programs and generates an overall report for each student program level details of pass cases, fail cases and pass % for each student.
+The student need not write code in the specified block unlike iteration 1&2, students can submit their code as it is. The test case file should be expected output file.
+Hence, we can get student level match % with respect to the expected output for each student and can grade relatively based on it.

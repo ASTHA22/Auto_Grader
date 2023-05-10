@@ -1,0 +1,15 @@
+Test case num,Expected Output,Student Output,Result
+0,9,9,Pass
+1,100,100,Pass
+2,15,15,Pass
+3,9,7,Fail
+4,10,11,Fail
+5,11,21,Fail
+6,103,181,Fail
+7,131,191,Fail
+
+Expected output:,9,100,15,9,10,11,103,131
+Student output:,9,100,15,7,11,21,181,191
+Pass cases:,3
+Fail cases:,5
+Pass percentage:,37.50%

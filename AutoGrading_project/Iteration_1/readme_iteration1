@@ -1,0 +1,18 @@
+Gist of this iteration:
+Detailed output of the individual student programs can be checked using this iteration for each test case instance.
+The student needs to write code in give block in student program base code.
+The grading works for test cases with integer or numerical inputs and outputs.
+Hence, we can check how many test cases does the program pass and fail and it's respective details.
+
+Iteration_1 folder has following files:
+1. test_cases.txt - Test cases file where last column is expected output
+2. student_program.py - Program submitted by the student. Student must write their codes in the given block only
+3. grading_script.py - this code runs the test cases on the student program and gives test case - pass/fail results and an overall summary. It generates a result.csv output
+4. result.csv - This file is generated after running the command in the terminal. The file will contain details for each test case instances and an overall summary.
+Result file will be stored in the default Jupyter folder. If you want to change it to custom path then change line 52 of 'grading_script.py' code to : csv_file = '/path/to/results.csv'
+Eg: csv_file = 'Documents/results.csv'
+
+Run the following command in Jupyter terminal:
+python /path/to/grading_script.py  /path/to/student_program.py /path/to/test_cases.txt
+Eg:
+python /Users/asthasingh/AutoGrading_project/Iteration_1/grading_script.py /Users/asthasingh/AutoGrading_project/Iteration_1/student_program.py /Users/asthasingh/AutoGrading_project/Iteration_1/test_cases.txt
